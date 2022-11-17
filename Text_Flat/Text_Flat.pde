@@ -13,7 +13,7 @@ String title = "Wahoo!";
 PFont titleFont; 
 color red=#FC0F0F, black=#030000, white=#FFFFFF, tan=#FFE9B9;
 //
-size(1080,1080); //Portrait
+size(920,1080); //Portrait
 //
 appWidth = width;
 appHeight = height;
@@ -76,7 +76,7 @@ rect(whiteX,whiteY,whiteWidth,whiteHeight);
 rect(white2X,white2Y,white2Width,white2Height);
 
 //
-fill(black);
+fill(white);
 textAlign(CENTER,CENTER);
 fontSize = 35;
 textFont(titleFont, fontSize);
